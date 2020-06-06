@@ -1,0 +1,261 @@
+.navbar{
+  background-color: 	#008B8B !important;
+color:#000060 !important;
+  
+}
+.logo1{  
+  
+  font-style:#000060 !important;
+}
+.nav-link{
+  color:#000060 !important;
+}
+.icon1 {
+  background-color: 	#008B8B !important;
+
+}
+.product,.maincontainer{
+  background-color: #20B2AA	;
+}
+
+.product h1{
+  color:#000060 !important;
+}
+.product p{
+  color:#004080;
+}
+h1{
+    text-align: center;}
+.facilities{
+ 
+    
+}
+.maincontainer{
+    display:flex;
+  
+    flex-wrap:wrap;
+}
+.pressshop,.weldingshop,.Paintshop,.Toolshop{
+    margin-top:20px; 
+    margin-left:100px;
+    border:3px solid #000060;
+    border-radius: 100%;
+    height:150px;
+
+background-color: rgb(47, 145, 112);   
+ width: 150px;
+}
+@media only screen and (max-width: 800px){
+  .pressshop,.weldingshop,.Paintshop,.Toolshop {
+    margin-left:80px;
+      
+  }
+  }
+    
+  @media only screen and (max-width: 600px){
+    .pressshop,.weldingshop,.Paintshop,.Toolshop {
+      margin-left:40px;
+        
+    }
+    }
+    @media only screen and (max-width: 400px){
+      .pressshop,.weldingshop,.Paintshop,.Toolshop {
+        margin-left:110px;
+          
+      }
+      }
+        
+      
+.icon1{
+    
+    width:337px;
+    height:500px;
+}
+@media only screen and (max-width: 700px){
+  .icon1{
+      width:50%;
+      height:600px;
+      
+  }
+  }
+@media only screen and (max-width: 600px){
+  .icon1{
+      width:50%;
+      height:660px;
+      
+  }
+  }
+@media only screen and (max-width: 400px){
+  .icon1{
+      width:100%;
+      height:450px;
+     
+  }
+  }
+
+
+
+.fa-anchor,.fa-archive,.fa-paint-brush,.fa-cogs{
+     font-size: 100px !important;
+     margin-top:20px;
+     margin-left:20px; 
+     color:#004080;
+}
+.paragraph{
+    margin-left:10px;
+    margin-right: 10px;
+
+}
+.productpage{
+  background-color:rgb(59, 209, 159);}
+.productpage h1{
+  color:#000030
+}
+.pictureblock{
+    
+   display: flex;
+   justify-content: space-around;
+   margin-top: 25px;
+}
+.pictureblock1{
+    border:15px solid #000030;
+    width:600px;
+    background-color:white;
+}
+.container2{
+background-color:rgb(59, 209, 159);
+}
+.container1 h1
+{
+color: #000060;}
+
+.container1 p{
+    text-align: center ;
+      
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    color:#3373b3;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    color:#101820;
+  }
+  
+  input[type=submit] {
+    background-color: 	rgb(10, 70, 70) !important;;
+
+    color:#849ceb;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #313532;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: rgb(47, 145, 112); 
+    padding: 20px;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+  .serious1{
+    background-color:rgb(32,178,170);
+    height: 400px;
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: space-around;
+  }
+  @media screen and (max-width: 1050px) {
+    .serious1{
+      height: 1000px;
+    }
+  }
+  @media screen and (max-width: 800px) {
+    .serious1{
+      height: 1250px;
+    }
+  }
+  @media screen and (max-width: 650px) {
+    .serious1{
+      height: 1300px;
+    }
+  }
+
+  .smifinal1{
+    margin-top: 10px;
+  
+    height: 350px;
+   width:350px;
+   background-color: 			rgb(3, 80, 80) !important;
+
+  
+  }
+ 
+  .smifinal1 P{
+    color :rgb(59, 209, 159);
+    margin-left: 20px;
+    margin-top: 40px;
+  }
+  .forpara P,.forpara a{
+    color:#3373b3;
+  }
+  .comtainer-fluid{
+      background-color: 			rgb(3, 80, 80) !important;
+      height: 100px;
+  }
+  .comtainer-fluid P{
+    text-align: center;
+    color :rgb(59, 209, 159);
+    padding-top: 20px;
+ 
+  }
+  .aboutus1{
+   background-color:rgb(59, 209, 159);
+  }
+  .aboutus2 h1{
+    color: #000060;
+  }
+  .aboutus2 p{
+    color:#3373b3;
+  }
